@@ -575,7 +575,7 @@ a {
     height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
     position: fixed;
-    z-index: 999;
+    z-index: 100;
     /* visibility: hidden; */
     top: 0;
     left: 0;
@@ -728,11 +728,11 @@ a {
     margin-left: 4px;
 }
 
-.modal-check-box {
+.modal-checkbox {
     margin-bottom: 24px;
 }
 
-.modal-button {
+.modal-bttn {
     display: block;
     margin: 0 auto;
     border: none;
@@ -766,8 +766,7 @@ a {
     fill: #2e2f42;
 }
 
-.modal-button:hover,
-.modal-button:focus {
+.checkbox:checked+.modal-check-text>.modal-check-span {
     background-color: #404bbf;
     border: none;
 }
@@ -794,6 +793,15 @@ a {
     border: none;
     fill: #F4F4FD;
 }
+
+
+
+
+
+
+
+
+
 
 .footer-sub {
     display: flex;
