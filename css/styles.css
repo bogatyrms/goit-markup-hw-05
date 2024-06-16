@@ -768,9 +768,10 @@ a {
     fill: #2e2f42;
 }
 
-.modal-check:checked+.modal-check-text>.modal-check-span {
+.modal-check:checked + .modal-check-text>.modal-check-span {
     background-color: #404bbf;
     border: none;
+    fill: #F4F4FD;
 }
 
 .modal-input:hover>.modal-icon-svg,
@@ -778,11 +779,8 @@ a {
     fill: #ffffff;
 }
 
-.modal-input:focus {
+.modal-input:focus>.modal-icon {
     border-color: #4D5AE5;
-}
-
-.modal-icon:focus>.modal-icon-svg {
     fill: #4D5AE5;
 }
 
