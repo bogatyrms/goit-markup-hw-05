@@ -784,6 +784,11 @@ a {
     fill: #4D5AE5;
 }
 
+.modal-icon:focus>.modal-icon-svg {
+    fill: #4D5AE5;
+    border-color: #4D5AE5;
+}
+
 .modal-text:focus {
     border-color: #4D5AE5;
 }
@@ -794,6 +799,11 @@ a {
     fill: #F4F4FD;
 }
 
+.modal-bttn:hover,
+.modal-bttn:focus {
+    background-color: #404bbf;
+    border: none;
+}
 
 
 
