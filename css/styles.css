@@ -393,7 +393,9 @@ a {
     margin-right: 120px;
 }
 
-.box-for-media {}
+.box-for-media {
+    margin-right: 80px;
+}
 
 .footer-text {
     font-weight: 400;
@@ -771,8 +773,8 @@ a {
     border: none;
 }
 
-.modal-icon:hover,
-.modal-icon:focus {
+.modal-icon:hover>.modal-icon-svg,
+.modal-icon:focus>.modal-icon-svg {
     fill: #ffffff;
 }
 
